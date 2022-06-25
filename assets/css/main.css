@@ -2064,7 +2064,7 @@ input, select, textarea {
 		background: url("../../images/banner.jpg") center center;
 		background-size: cover;
 		padding: 0;
-		
+
 	}
 
 		#header:before {
@@ -2093,14 +2093,13 @@ input, select, textarea {
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
-			color: #fff;
+			color: #333;
 			font-size: 2em;
 			letter-spacing: 0.25em;
 		}
 
 		#logo p {
-			color: #eee;
-			color: rgba(255, 255, 255, 0.5);
+			color: #333;
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
 			display: block;
@@ -2139,7 +2138,7 @@ input, select, textarea {
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
 					color: #333;
-					color: hsla(0, 0%, 20%, 1)
+					color: hsla(0, 0%, 20%, 1);
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.7em;
@@ -2155,11 +2154,11 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a {
-					color: #fff;
+					color: rgb(208, 93, 93);
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
-					color: #fff;
+					color: rgb(208, 93, 93);
 				}
 
 	.dropotron {
@@ -2444,7 +2443,7 @@ input, select, textarea {
 		/* Logo */
 
 			#logo {
-				margin-top: -0.5em !important;
+				margin-top: -192px !important;
 			}
 
 				#logo h1 {
